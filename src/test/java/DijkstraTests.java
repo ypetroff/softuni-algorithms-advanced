@@ -1,3 +1,4 @@
+import _01_Graphs_Topologica_Sorting_MST.Dijkstra;
 import org.junit.Assert;
 import org.junit.Test;
 

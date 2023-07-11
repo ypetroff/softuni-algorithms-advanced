@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="softuni-algorithms-advanced" />
+        <module name="Dijkstra-MST" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="softuni-algorithms-advanced" target="19" />
+    </bytecodeTargetLevel>
   </component>
 </project>

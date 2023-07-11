@@ -1,7 +1,12 @@
+package _01_Graphs_Topologica_Sorting_MST;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/*
+ * This is sample code using Kruskal's algorithm for finding Minimum Spanning Tree(MST)
+ * */
 public class KruskalAlgorithm {
 
     public static List<Edge> kruskal(int numberOfVertices, List<Edge> edges) {

@@ -1,3 +1,5 @@
+package _01_Graphs_Topologica_Sorting_MST;
+
 import java.util.*;
 
 public class Dijkstra {

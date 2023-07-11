@@ -1,3 +1,5 @@
+package _01_Graphs_Topologica_Sorting_MST;
+
 public class Edge implements Comparable<Edge> {
 
     private int startNode;
