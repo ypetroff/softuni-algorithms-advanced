@@ -12,7 +12,6 @@ import java.util.stream.Collectors;
 public class _01_Bellman_Ford_2D_Array_Graph {
 
   private static int[][] graph;
-  private static boolean[] visited;
   private static int[] prev;
   private static int[] distances;
 
@@ -24,7 +23,6 @@ public class _01_Bellman_Ford_2D_Array_Graph {
     int e = Integer.parseInt(reader.readLine()); // e for edge, this is the number of edges
 
     graph = new int[v + 1][v + 1];
-    visited = new boolean[v + 1]; // or graph.length
     prev = new int[v + 1]; // or graph.length
     distances = new int[v + 1]; // or graph.length
 
@@ -66,7 +64,6 @@ public class _01_Bellman_Ford_2D_Array_Graph {
   }
 
   private static void negativeCycleDetection() {
-    for (int i = 1; i < graph.length - 1; i++) {
       for (int row = 1; row < graph.length; row++) {
         for (int col = 1; col < graph[row].length; col++) {
           int w = graph[row][col];
@@ -80,7 +77,6 @@ public class _01_Bellman_Ford_2D_Array_Graph {
           }
         }
       }
-    }
   }
 
   private static void bellmanFord() {
