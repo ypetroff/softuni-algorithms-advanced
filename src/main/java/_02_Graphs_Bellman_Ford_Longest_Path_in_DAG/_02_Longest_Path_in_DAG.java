@@ -4,12 +4,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayDeque;
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class _02_Longest_Path_in_DAG {
   private static int[][] graph;
-  private static int[] distances;
   private static boolean[] visited;
 
   public static void main(String[] args) throws IOException {
@@ -20,7 +18,7 @@ public class _02_Longest_Path_in_DAG {
     int e = Integer.parseInt(reader.readLine()); // e for edge, this is the number of edges
 
     graph = new int[v + 1][v + 1];
-    distances = new int[v + 1]; // or graph.size
+    int[] distances = new int[v + 1]; // or graph.size
     visited = new boolean[v + 1];
 
     Arrays.fill(distances, Integer.MIN_VALUE);
