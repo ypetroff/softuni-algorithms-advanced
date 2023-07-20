@@ -6,7 +6,6 @@ import java.io.InputStreamReader;
 import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.PriorityQueue;
-import java.util.StringJoiner;
 
 public class _03_MostReliablePath {
   private static double[][] graph;
@@ -32,7 +31,7 @@ public class _03_MostReliablePath {
     Arrays.fill(reliability, Double.MIN_VALUE);
     reliability[startNode] = 1;
 
-    Arrays.fill(prev, - 1);
+    Arrays.fill(prev, -1);
 
     fillGraph(reader, edges);
 
@@ -62,7 +61,7 @@ public class _03_MostReliablePath {
 
     while (node != -1) {
       stack.push(node);
-      node  = prev[node];
+      node = prev[node];
     }
 
     return stack;
@@ -110,7 +109,7 @@ public class _03_MostReliablePath {
           Double.parseDouble(tokens[2]) / 100;
 
       graph[Integer.parseInt(tokens[1])][Integer.parseInt(tokens[0])] =
-              Double.parseDouble(tokens[2]) / 100;
+          Double.parseDouble(tokens[2]) / 100;
     }
   }
 }
