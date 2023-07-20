@@ -2,7 +2,7 @@ package _01_Graphs_Topologica_Sorting_MST;
 
 import java.util.*;
 /*
-* This is sample code using Prim's algorithm for finding Minimum Spanning Tree(MST)
+* This is sample code using Prim algorithm for finding Minimum Spanning Tree(MST)
 * */
 public class Prim {
   /*
