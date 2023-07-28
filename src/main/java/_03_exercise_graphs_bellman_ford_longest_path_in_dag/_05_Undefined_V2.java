@@ -1,4 +1,4 @@
-package _03_Exercise_Graphs_BellmanFord_Longest_Path_in_DAG;
+package _03_exercise_graphs_bellman_ford_longest_path_in_dag;
 
 import java.io.BufferedReader;
 import java.io.IOException;

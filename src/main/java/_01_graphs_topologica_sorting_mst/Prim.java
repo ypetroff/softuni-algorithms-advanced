@@ -1,4 +1,4 @@
-package _01_Graphs_Topologica_Sorting_MST;
+package _01_graphs_topologica_sorting_mst;
 
 import java.util.*;
 /*

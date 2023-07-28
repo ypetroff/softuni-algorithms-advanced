@@ -1,4 +1,6 @@
-import _01_Graphs_Topologica_Sorting_MST.Dijkstra;
+package _01_graphs_topologica_sorting_mst;
+
+import _01_graphs_topologica_sorting_mst.Dijkstra;
 import org.junit.Assert;
 import org.junit.Test;
 

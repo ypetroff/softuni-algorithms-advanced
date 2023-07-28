@@ -1,5 +1,7 @@
-import _01_Graphs_Topologica_Sorting_MST.Edge;
-import _01_Graphs_Topologica_Sorting_MST.KruskalAlgorithm;
+package _01_graphs_topologica_sorting_mst;
+
+import _01_graphs_topologica_sorting_mst.Edge;
+import _01_graphs_topologica_sorting_mst.KruskalAlgorithm;
 import org.junit.Assert;
 import org.junit.Test;
 
